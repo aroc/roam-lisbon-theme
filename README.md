@@ -15,3 +15,4 @@ TODO:
 - [ ] Style the left sidebar
 - [ ] Style the top toolbar icon buttons
 - [ ] Refine the color palette to be more Lisbon-ish
+- [ ] Add screenshots and the color palette to README
