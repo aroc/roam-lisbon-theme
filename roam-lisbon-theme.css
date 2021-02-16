@@ -1,0 +1,54 @@
+body {
+  font-family: "Brandon Text";
+  font-weight: 400;
+  color: rgba(51, 52, 52, 1);
+}
+h1.rm-title-display,
+h1.rm-title-editing-display {
+  font-weight: 600;
+  color: rgba(51, 52, 52, 0.8);
+  font-size: 18px;
+  text-decoration: underline;
+}
+.rm-page-ref {
+  color: rgb(100, 102, 241, 1);
+}
+.rm-page-ref:hover {
+  background-color: rgba(100, 102, 241, 0.1);
+}
+.rm-block-ref {
+  background-color: rgba(255, 242, 168, 0.3);
+}
+.rm-block-ref:hover {
+  background-color: rgba(255, 242, 168, 1);
+}
+/* Kanban board styling */
+.kanban-board {
+  background-color: rgba(255, 255, 255, 1);
+}
+.kanban-column {
+  background-color: rgba(255, 255, 255, 1);
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+}
+.kanban-column:last-child {
+  border-right: none;
+}
+.kanban-title {
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kanban-card {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 10px 14px;
+  background-color: #fff;
+}
+.kanban-card:hover {
+  background-color: rgba(0, 0, 0, 0.015);
+}
